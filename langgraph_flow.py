@@ -13,7 +13,6 @@ class SmartOpsState(TypedDict):
     tavily: str
     final: str
 
-
 def run_conversation(user_input: str):
     # Step 1 - Use Serper API
     def step_one(state: SmartOpsState) -> SmartOpsState:
